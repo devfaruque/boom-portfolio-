@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1366px) {
+    .banner-section .banner-content h1 {
+        font-size: 36px;
+    }
+    .banner-section .banner-content .banner-logo img {
+        width: 80%;
+    }
+    .banner-section .banner-content .feature-ban {
+        max-width: 830px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .demos-item {
+        width: 50%;
+    }
+    .inner-page-item {
+        width: 33.33%;
+    }
+    .header-section {
+        /*position: static;*/
+    }
+    .fixed-top-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 999;
+    }
+    .banner-section {
+        padding-block: 100px;
+    }
+    .banner-section .banner-content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        position: static;
+        transform: translateY(0%);
+    }
+    .scrollToTop {
+        right: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .inner-page-item {
+        width: 50%;
+    }
+    .inner-page,
+    .demos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-section {
+        text-align: center;
+    }
+    .header-section .primary-menu .purchase-btn {
+        float: none;
+    }
+    .header-section .primary-menu .main-menu ul li {
+        float: none;
+        display: inline-block;
+    }
+    .banner-section .banner-content .feature-ban .feature-item {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header-section .primary-menu .main-menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-section .primary-menu .purchase-btn {
+        display: none;
+    }
+    .banner-section .banner-content h1 {
+        font-size: 18px;
+    }
+    .demos-item {
+        width: 100%;
+        float: none;
+    }
+    .inner-page-item {
+        width: 100%;
+        float: none;
+    }
+    .demos .demos-header h2 {
+        font-size: 24px;
+    }
+    .footer-bg .footer-content-area h2 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    .demos .demos-header p,
+    .inner-page .inner-page-header p {
+        max-width: 100%;
+        font-size: 15px;
+    }
+    .footer-bg .footer-content-area h2:nth-child(2) {
+        padding-top: 0;
+    }
+}
